@@ -1,6 +1,5 @@
 const selector1 = document.querySelector("#Verify");
 const info = document.querySelector("#info");
-const indicadorTotal = document.querySelector("#total");
 
 selector1.addEventListener("click", () => {
   const stickerA = +document.querySelector("#conteo1").value;
@@ -9,7 +8,7 @@ selector1.addEventListener("click", () => {
   const sumStickers = stickerA + stickerB + stickerC;
 
   if (sumStickers <= 10) {
-    indicadorTotal.innerHTML = sumStickers;
+    info.innerHTML = "llevas " + sumStickers + " stickers";
     info.style.color = "green";
   } else {
     info.innerHTML = "Llevas demasiados Stickers";
