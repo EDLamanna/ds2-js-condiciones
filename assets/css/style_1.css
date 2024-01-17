@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+}
+
+#imgBorde {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 55px auto;
+  width: 500px;
+}

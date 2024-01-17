@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+}
+
+#stickers {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#stickers > img {
+  width: 250px;
+}
+
+#count {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#count > input {
+  margin: 20px;
+}
+
+#conteo1 {
+  width: 200px;
+  height: 25px;
+}
+
+#conteo2 {
+  width: 200px;
+  height: 25px;
+}
+
+#conteo3 {
+  width: 200px;
+  height: 25px;
+}
+
+#validation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+}
